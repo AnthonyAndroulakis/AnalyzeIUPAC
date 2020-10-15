@@ -73,7 +73,7 @@ class Molecule:
 			theunsaturation = (splitname[indexofparentinsplitname+1:] if theunsaturation != None else None)
 		theparent = self.parents[parentnum-1]
 		thecycloparent = (splitname[indexofparentinsplitname][indexofcycloinfocus:indexofparentinfocus] if cyclotype != None else None)
-		print(f'parent: {theparent}\n cyclo: {thecycloparent}\n unsaturation: {theunsaturation}\n functionalgroup: {thefunctionalgroup}\n substituents: {thesubstituents}')
+		print(f'parent: {theparent}\ncyclo: {thecycloparent}\nunsaturation: {theunsaturation}\nfunctionalgroup: {thefunctionalgroup}\nsubstituents: {thesubstituents}')
 		return theparent, thecycloparent, theunsaturation, thefunctionalgroup, thesubstituents
 
 
