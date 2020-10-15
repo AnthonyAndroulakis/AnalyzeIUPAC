@@ -17,5 +17,6 @@ substituents: 6,6-dimethyl-4-methylene
 ```
 
 # Info
-put the location of the unsaturation directly infront of the "en"/"yn"/"dien"/"diyn"/etc. (as shown in the example above)     
-cyclo, unsaturation, functional group, and substituents are all optional. The program uses the position of the parent string (and cyclo, if found) to analyze the rest of the molecule.
+- put the location of the unsaturation directly infront of the "en"/"yn"/"dien"/"diyn"/etc. (as shown in the example above)     
+- cyclo, unsaturation, functional group, and substituents are all optional. The program uses the position of the parent string (and cyclo, if found) to analyze the rest of the molecule.
+- trans/cis is ignored
