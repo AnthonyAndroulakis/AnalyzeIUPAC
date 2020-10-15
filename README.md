@@ -1,5 +1,5 @@
 # AnalyzeIUPAC
-short python program to analyze some iupac names
+short python program to analyze some iupac names     
 \* not intended for serious use, just made this really quick for fun
 
 # Usage
